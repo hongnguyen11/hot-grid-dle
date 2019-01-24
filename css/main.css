@@ -1,0 +1,58 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Roboto-Slab", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.first-content {
+  margin: 0;
+}
+
+.second-content {
+  margin: 0;
+}
+
+.third-content {
+  margin: 0;
+}
+
+.unit {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  bottom: 1em;
+  left: 1em;
+  max-width: 15em;
+  border-radius: 5px;
+}
+
+p {
+  padding: .5em;
+  font-family: 'Roboto-Slab', sans-serif;
+}
